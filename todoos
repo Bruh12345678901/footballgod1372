@@ -1,0 +1,43 @@
+state machine - keeps track of where u are in a program(keeps track of where you are and what you can do in the room)
+Introduction to game - Start game function/Join game
+Join game command - Look into how the old bot handles add new players and using their stored data
+Users.json ? as,k kevin
+Implemnt work function and make args work for it
+Add key functions such as gather wood and gather traps
+Keep track of what stage people are at and unlock certain parts for players after they unlock it
+-Unlock Iron, Coal, Steel, Alien Alloy, Spaceship, Explore, Etc
+When they gain explore, they have chances of getting these drops and learning their properties.
+Gather Wood
+-wood = 1
+Gather Traps
+-fur = 2
+-scales = 2
+-leather = 2
+-cloth = 2
+-meat = 2
+-teeth = 2
+-bait = 2
+Buyable Buildings
+-Huts(When gathering wood or traps, you can get more wood based on how many people you have) = 3
+-+More Traps(more drops per gather traps) = 3
+-Cart(Increases wood per gather wood) = 3
+-Lodge(Houses more people) = 3
+-Trading post(Trade for materials with nomads(scales, teeth, etc)) = 3
+-Tannery(Make leather into clothes for armor) = 3
+-Smokehouse(Cure Meat) = 3
+-Workshop(Make armors and tools to increase chances of mining) = 3
+-Outpost(allows you to use explore function, has chance of finding coal mine, armor and weapons increase chances and brings more loot) = 3
+---Explore function(Explore means you go out, you get to choose what you take with you, if you die with what you have on you, you lose it, everytime you move, you have a chance of being encountered by a creature, you have chances of finidng mines, you can go home whenever you want to unless your fighting) = 3
+Coal Mine Found
+-Coal mine(Unlocks mine function, when you go mining, you have a chance of getting coal, uses cured meat, armor and weapons increase chances of getting coal and how much) = 4
+-torches(less chance of finding animals) = 4
+Iron Mine Found
+-Iron Mine(Unlocks Iron mining function, when you mine, you have a chance of getting iron, harder creatures, more chance of dying, chance of finding steel) = 5
+-New Materials Found = 5
+-Iron Armor = 5
+-Iron Sword = 5
+-Iron Shield = 5
+-Medicine = 5
+Steel Mine Found
+-Steel Mine(unlocks steel mining function, when you mine, you have a chance of getting steel and a rare chance of getting an alien alloy and an even rare chance of a spaceship ) = 6
+
