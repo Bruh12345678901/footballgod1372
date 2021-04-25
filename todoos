@@ -41,3 +41,16 @@ Iron Mine Found
 Steel Mine Found
 -Steel Mine(unlocks steel mining function, when you mine, you have a chance of getting steel and a rare chance of getting an alien alloy and an even rare chance of a spaceship ) = 6
 
+
+
+
+Random Events: 
+Wood:
+Once reaching certain amount of wood(100), have a chance for a fire to Start, about 25% to happen, half of wood lost
+Once reaching 1000 wood, 25% to lose all, 25% to gain double, 50% to gain normal
+Traps:
+2 traps, 25% chance for every time gather traps, monters can destroy traps(destroys only 1 to 2)
+5+ traps, 25% chance for monsters to destroy 2-4 traps, 10% chance for all traps to be destroyed
+Huts:
+3+ Huts, fire ravages through town and destroys all 5% chance
+1+ Huts, Wind storm breaks a hut, 20% 
